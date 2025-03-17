@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: hwb(122 15% 34%);
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+header h1 {
+    font-size: 3em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid white;
+    object-fit: cover;
+}
+
+section {
+    padding: 40px 0;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.skills ul {
+    list-style-type: none;
+}
+
+.skills li {
+    font-size: 1.1em;
+    color: #555;
+    margin: 5px 0;
+}
+
+.projects .project {
+    margin-bottom: 20px;
+}
+
+.projects .project h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.projects .project p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+.contact p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 1em;
+}
+
+@media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 2.5em;
+    }
+
+    header p {
+        font-size: 1em;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    .skills li, .projects .project h3 {
+        font-size: 1em;
+    }
+}
